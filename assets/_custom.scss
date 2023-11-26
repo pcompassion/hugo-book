@@ -11,6 +11,47 @@ span.question {
 
 span.QUESTION {
 
-    color: map-get($hint-colors, danger);
+    color: map-get($hint-colors, info);
     font-weight: bold;
 }
+
+
+
+div.math{
+    padding: $padding-16;
+    background: var(--gray-100);
+    border-radius: $border-radius;
+    overflow-x: auto;
+    line-height: 1.6;
+
+    // code {
+    //   padding: 0;
+    //   background: none;
+    // }
+  }
+
+span.katex-display{
+    padding: $padding-16;
+    background: var(--gray-100);
+    border-radius: $border-radius;
+    overflow-x: auto;
+    line-height: 1.6;
+
+    // code {
+    //   padding: 0;
+    //   background: none;
+    // }
+  }
+
+// span.katex{
+//     padding: $padding-4;
+//     background: var(--gray-100);
+//     border-radius: $border-radius;
+//     overflow-x: auto;
+//     // line-height: 1.6;
+
+//     // code {
+//     //   padding: 0;
+//     //   background: none;
+//     // }
+//   }
