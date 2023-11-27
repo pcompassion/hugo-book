@@ -43,7 +43,17 @@ span.katex-display{
     // }
   }
 
-
+article.markdown h1,
+article.markdown h2,
+article.markdown h3,
+article.markdown h4,
+article.markdown h5,
+article.markdown h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: var(--base-text-weight-semibold, 600);
+  line-height: 1.25;
+}
 article.markdown h2 {
   font-weight: var(--base-text-weight-semibold, 600);
   padding-bottom: .3em;
@@ -59,6 +69,17 @@ article.markdown h3 {
 article.markdown h4 {
   font-weight: var(--base-text-weight-semibold, 600);
   font-size: 1em;
+}
+
+article.markdown h5 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .875em;
+}
+
+article.markdown h6 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .85em;
+  color: var(--color-fg-muted);
 }
 
 // span.katex{
